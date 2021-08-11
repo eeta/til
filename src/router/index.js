@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import DataBinding from '../views/DataBinding.vue'
 import DataBindingHtml from '../views/DataBindingHtml.vue'
 import DataBindingInputText from '../views/DataBindingInputText.vue'
+import DataBindingInputNumber from '../views/DataBindingInputNumber.vue'
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: '/databindinginputtext',
     name: 'DataBindingInputText',
     component: DataBindingInputText
+  },
+  {
+    path: '/databindinginputnumber',
+    name: 'DataBindingInputNumber',
+    component: DataBindingInputNumber
   }
 ]
 
