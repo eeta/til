@@ -1,4 +1,4 @@
-package board.dto;
+package com.eeta.board.dto;
 
 import lombok.Data;
 

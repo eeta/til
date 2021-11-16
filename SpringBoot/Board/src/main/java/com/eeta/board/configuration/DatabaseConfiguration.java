@@ -1,4 +1,4 @@
-package board.configuration;
+package com.eeta.board.configuration;
 
 import javax.sql.DataSource;
 
