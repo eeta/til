@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- 카카오 로그인 버튼 노출 영역 -->
         <a id="kakao-login-btn" @click="kakaoLogin()">
             <img src="../assets/kakao_login_medium_narrow.png" width="222"/>
         </a>
@@ -11,6 +12,7 @@
 <script>
 export default {
     methods: {
+        // 카카오 로그인
         kakaoLogin() {
             // window.Kakao.Auth.login 함수를 호출함으로써 카카오 계정으로 로그인 팝업을 호출할 수 있다.
             window.Kakao.Auth.login({
@@ -39,7 +41,7 @@ export default {
             window.Kakao.Auth.logout((response) => {
                 console.log(response);
             });
-        }
+        },
     }
 }
 </script>

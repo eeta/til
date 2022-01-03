@@ -10,7 +10,7 @@ import DataBindingCheckbox2 from '../views/DataBindingCheckbox2.vue'
 import DataBindingRadio from '../views/DataBindingRadio.vue'
 import DataBindingAttribute from '../views/DataBindingAttribute.vue'
 import DataBindingButton from '../views/DataBindingButton.vue'
-import Oauth from '../views/Oauth.vue'
+import OauthKakao from '../views/OauthKakao.vue'
 
 const routes = [
   {
@@ -77,9 +77,9 @@ const routes = [
     component: DataBindingButton
   },
   {
-    path: '/oauth',
-    name: 'oauth',
-    component: Oauth
+    path: '/oauthkakao',
+    name: 'oauthkakao',
+    component: OauthKakao
   }
 ]
 
