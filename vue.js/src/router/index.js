@@ -11,6 +11,7 @@ import DataBindingRadio from '../views/DataBindingRadio.vue'
 import DataBindingAttribute from '../views/DataBindingAttribute.vue'
 import DataBindingButton from '../views/DataBindingButton.vue'
 import OauthKakao from '../views/OauthKakao.vue'
+import OauthNaver from '../views/OauthNaver.vue'
 
 const routes = [
   {
@@ -80,6 +81,12 @@ const routes = [
     path: '/oauthkakao',
     name: 'oauthkakao',
     component: OauthKakao
+  },
+  {
+    path: '/oauthnaver',   
+    name: 'oauthnaver',
+    //component: OauthNaver
+    component: () => import( /* webpackChunkName: "parent" */ '../views/OauthNaver.vue')
   }
 ]
 
